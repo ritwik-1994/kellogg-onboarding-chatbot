@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+cline[pg]
+sentence-transformers==2.7.0
+pdfminer.six==20221105
+python-magic
+pandas
+typer
+slowapi
+psycopg2-binary
