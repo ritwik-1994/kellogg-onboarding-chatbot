@@ -1,7 +1,7 @@
 {
   "name": "kellogg-student-chat",
   "build": { "dockerfile": "Dockerfile" },
-  "postCreateCommand": "/usr/local/bin/bootstrap.sh",
+  "postCreateCommand": "bash .devcontainer/bootstrap.sh",
   "forwardPorts": [8000, 5432, 3000],
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
